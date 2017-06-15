@@ -1,4 +1,4 @@
-workspace(name = "com_github_istio_mixer")
+workspace(name = "com_github_istio_broker")
 
 git_repository(
     name = "io_bazel_rules_go",
@@ -459,4 +459,3 @@ git_repository(
     commit = "983183f98b79f8b67fe380fef4cdd21481830fd7",  # Apr 13, 2017 (no releases)
     remote = "https://github.com/istio/test-infra.git",
 )
-
